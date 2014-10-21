@@ -1,199 +1,168 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
- <head>
+    <head>
+        <meta charset="utf-8"></meta>
+        <meta content="IE=edge" http-equiv="X-UA-Compatible"></meta>
+        <meta content="width=device-width, initial-scale=1" name="viewport"></meta>
+        <meta content="" name="description"></meta>
+        <meta content="" name="author"></meta>
+        <link href="../../favicon.ico" rel="icon"></link>
+        <title>
 
-    <meta charset="utf-8"></meta>
-    <meta content="IE=edge" http-equiv="X-UA-Compatible"></meta>
-    <meta content="width=device-width, initial-scale=1" name="viewport"></meta>
-    <meta content="" name="description"></meta>
-    <meta content="" name="author"></meta>
-    <link href="../../favicon.ico" rel="icon"></link>
-    <title>
+          Zachary Jacobs Portfolio
 
-        Zachary Jacobs Portfolio
-
-    </title>
-    <!--Bootstrap core CSS -->
-    <link rel="stylesheet" href="../../dist/css/bootstrap.min.css"></link>
-    <!--Custom styles for this template -->
-    <link rel="stylesheet" href="jumbotron.css"></link>
-    <link href="css/custom.css" rel="stylesheet">
-    <!--Just for debugging purposes. Don't actually copy …-->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-resp…-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
-    <!--HTML5 shim and Respond.js IE8 support of HTML5 el…-->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcd…-->
-
-</head>
-
-    <body>
-        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-            <div class="container">
-                <div class="navbar-header">
-                    <button class="navbar-toggle collapsed" data-target=".navbar-collapse" data-toggle="collapse" type="button">
-                        <span class="sr-only">
-
-                            Toggle navigation
-
-                        </span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">
-
-                        Project name
-
-                    </a>
-                </div>
-                <div class="navbar-collapse collapse">
-                    <form class="navbar-form navbar-right" role="form">
-                        <div class="form-group">
-                            <input class="form-control" type="text" placeholder="Email"></input>
-                        </div>
-                        <div class="form-group">
-                            <input class="form-control" type="password" placeholder="Password"></input>
-                        </div>
-                        <button class="btn btn-success" type="submit">
-
-                            Sign in
-
-                        </button>
-                    </form>
-                </div>
-                <!--
-
-                /.navbar-collapse 
-
-                -->
-            </div>
-        </div>
+        </title>
         <!--
 
-         Main jumbotron for a primary marketing message or…
+         Bootstrap core CSS 
 
         -->
-        <div class="jumbotron">
-            <div class="container">
-                <h1>
+        <link rel="stylesheet" href="../../dist/css/bootstrap.min.css"></link>
+        <link href="css/custom.css" rel="stylesheet">
+        <!--
 
-                    Hello, world!
+         Just for debugging purposes. Don't actually copy …
 
-                </h1>
-                <p>
+        -->
+        <!--
 
-                    This is a template for a simple marketing or infor…
+        [if lt IE 9]><script src="../../assets/js/ie8-resp…
 
-                </p>
-                <p>
-                    <a class="btn btn-primary btn-lg" role="button">
+        -->
+        <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+        <!--
 
-                        Learn more »
+         HTML5 shim and Respond.js IE8 support of HTML5 el…
 
-                    </a>
-                </p>
-            </div>
-        </div>
+        -->
+        <!--
+
+        [if lt IE 9]>
+              <script src="https://oss.maxcd…
+
+        -->
+        <!--
+
+         Custom styles for this template 
+
+        -->
+        <link rel="stylesheet" href="carousel.css"></link>
+        
+    </head>
+!--
+
+ NAVBAR
+==========================================…
+
+-->
+
+<body>
+
+    <div class="navbar-wrapper">
         <div class="container">
-            <!--
+            <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button class="navbar-toggle collapsed" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+                            <span class="sr-only">
 
-             Example row of columns 
+                                Toggle navigation
 
-            -->
-            <div class="row">
-                <div class="col-md-4">
-                    <h2>
+                            </span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">
 
-                        Heading
-
-                    </h2>
-                    <p>
-
-                        Donec id elit non mi porta gravida at eget metus. …
-
-                    </p>
-                    <p>
-                        <a class="btn btn-default" role="button" href="#">
-
-                            View details »
+                            Project name
 
                         </a>
-                    </p>
-                </div>
-                <div class="col-md-4">
-                    <h2>
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="active">
+                                <a href="#">
 
-                        Heading
+                                    Home
 
-                    </h2>
-                    <p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#about">
 
-                        Donec id elit non mi porta gravida at eget metus. …
+                                    About
 
-                    </p>
-                    <p>
-                        <a class="btn btn-default" role="button" href="#">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#contact">
 
-                            View details »
+                                    Contact
 
-                        </a>
-                    </p>
-                </div>
-                <div class="col-md-4">
-                    <h2>
+                                </a>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
 
-                        Heading
+                                    Dropdown 
 
-                    </h2>
-                    <p>
+                                    <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li>
+                                        <a href="#">
 
-                        Donec sed odio dui. Cras justo odio, dapibus ac fa…
+                                            Action
 
-                    </p>
-                    <p>
-                        <a class="btn btn-default" role="button" href="#">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
 
-                            View details »
+                                            Another action
 
-                        </a>
-                    </p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+
+                                            Something else here
+
+                                        </a>
+                                    </li>
+                                    <li class="divider"></li>
+                                    <li class="dropdown-header">
+
+                                        Nav header
+
+                                    </li>
+                                    <li>
+                                        <a href="#">
+
+                                            Separated link
+
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+
+                                            One more separated link
+
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            <hr></hr>
-            <footer>
-                <p>
-
-                    © Company 2014
-
-                </p>
-            </footer>
         </div>
-        <!--
 
-         /container 
-
-        -->
-        <!--
-
-         Bootstrap core JavaScript
-            ===================…
-
-        -->
-        <!--
-
-         Placed at the end of the document so the pages lo…
-
-        -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script src="../../dist/js/bootstrap.min.js"></script>
-        <!--
-
-         IE10 viewport hack for Surface/desktop Windows 8 …
-
-        -->
-        <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    
+    
     </body>
 
 </html>
